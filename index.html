@@ -104,14 +104,14 @@
           <label for="name">Name</label>
           <i class="fa-solid fa-user-secret"></i>
             <input type="text" id = "name"><br/>
-          <label for="email">Email:</label>  
-            <i class="fa-solid fa-envelope"></i></i>
-            <input type="email" value = "email@umich.edu" name = "address" ><br/>
+          <label for="emailed">Email:</label>  
+            <i class="fa-solid fa-envelope"></i>
+            <input type="email" id = "email" value = "email@umich.edu" name = "address" ><br/>
           <label for="country">Location: </label>
             <i class="fa-solid fa-location-dot"></i>
             <input type="text" id = "country" name = "countries"><br/>
           <label for="birth">Date of birth:</label>
-          <i class="fa-solid fa-cake-candles"></i></i>
+          <i class="fa-solid fa-cake-candles"></i>
             <input type="date" id = "birth" name = "bday"><br/>
           <label for="message">Leave a message!</label>
           <i class="fa-solid fa-message"></i>
@@ -124,14 +124,15 @@
 
       <h3> This Could Be You!</h3>
       <div class = "video">
-      <video width ="300" height = "auto" controls>
+      <video width ="300" height = "200" controls>
         <source src="videos/singapore_video.mp4" type="video/mp4">
+        <track label="English" kind="subtitles" srclang="en" src="captions/vtt/sintel-en.vtt" default>
         
         Your browser does not support the video tag.
       </video>
       </div>
     </div>
-  
+    </div>
   </main>
 
 
@@ -141,7 +142,6 @@
         <p>Tarush Nandrajog &copy; 2022 <i class="fa-solid fa-earth-asia"></i></p>
       </footer>
       
-    </div>
 </body>
 </html>
   
